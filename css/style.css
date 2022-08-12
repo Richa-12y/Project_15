@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* body {
+    background-color:beige;
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer;
+} */
+.main-container{
+    display: flex;
+    flex-direction: row;
+        background-color: beige;
+            width: 100vw;
+            height: 100vh;
+}
+.left-container{
+    width:40vw;
+    height:100vh;
+    background-image:url('../img/covered-stylish-woman-in-sunglasses-looking-away-3819572-1-e1594903577410-1024x795.jpg');
+    background-repeat: no-repeat;
+    object-fit:cover;
+}
+
+[alt="logo"] {
+    margin-top: 0.5em;
+    margin-left: 2em;
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+nav {
+    display: flex;
+    justify-content: space-between; 
+    max-height: 10vh;
+    align-items: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    position: relative;
+    left:20em;
+    width: 60%;
+    /* background-color: aqua; */
+} 
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    width: 570px;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: black;
+    /* background-color: aqua; */
+    margin-left: 12%;
+    text-transform: capitalize;
+    padding: 2em;
+}
+nav::after{
+    content:"";
+    width: 380px;
+    height: 2px;
+    background-color: black;
+    position:absolute;
+    right:30em;
+}
+.text-container{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text-details{
+    display: flex;
+    flex-direction:row;
+    width: 85%;
+    /* background-color: aliceblue; */
+}
+.text-title{
+    width:70%;
+    /* background-color: aqua; */
+    text-transform: capitalize;
+}
+.ingredient-container{
+    width:30%;
+    /* background-color:yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.ingredient-container p{
+    font-size: 2em;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+.package-button{
+    border: none;
+    outline: none;
+    width:200px;
+    padding: 1em 1.5em 1em 1.5em;
+    background-color: #000;
+    text-transform:capitalize;
+    color: white;
+    font-size: 0.9em;
+}
+.text-title h1{
+    -webkit-text-stroke: 1px black;
+        color: white;
+        text-shadow:
+            3px 3px 0 #000,
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+            font-size: 6em;
+}
+.circle{
+    font-size: 0.3em;
+}
+.text-title h2{
+        -webkit-text-stroke: 1px black;
+            color: black;
+            text-shadow:
+                3px 0 #000;
+               font-size: 5em;
+               margin-left:2em;
+}
+[alt="twitter"]{
+    width: 30px;
+    height:30px;
+    object-fit: cover;
+}
+
+[alt="insta"] {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+[alt="facbook"] {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+[alt="email"]{
+    width: 30px;
+    height: 30px;
+}
+.social-media-icon{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-right: 5em;
+}
+.timeline-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.timeline-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.timeline-circle {
+    width: 15px;
+    height: 15px;
+    background: grey;
+    border-radius: 50%
+}
+.timeline-circle-one{
+    width: 15px;
+        height: 15px;
+        background: black;
+        border-radius: 50%
+}
+.timeline-line {
+    width: 2px;
+    height: 40px;
+    background: grey;
+}
+
+[title='home'] {
+    margin-left: 10px;
+}
+
+.main-container-timeline{
+    position: relative;
+    bottom:-20%;
+    left:2em;
+    width: 90%;
+    /* background-color: aqua; */
+}
+[alt="korean-girl"]{
+    width:300px;
+    height: 200px;
+    object-fit:contain;
+    margin-top:-0.5em;
+}
+.Graphic-container{
+    width:40%;
+    margin-left: 15em;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:0%;
+    /* background-color: blue; */
+}
+.doublequote-container:after {
+    content: '❞';
+    color: black;
+    font-size: 3em;
+}
+.girls-container p{
+   font-size: 0.9em;
+   width: 360px;
+}
+.arrow-container{
+    position: absolute;
+    right:3%;
+    bottom: 10%;
+    /* background-color: aqua; */
+}
+[alt="wingarrow"]{
+    width:100px;
+    height:100px;
+    object-fit: contain;
+    /* background-color: blue; */
+}
